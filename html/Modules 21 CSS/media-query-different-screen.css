@@ -1,0 +1,40 @@
+@media (max-width: 600px){
+    /*
+    phones
+    */
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: 'This is mobile '
+    }
+}
+
+@media (min-width: 600px){
+    /*
+    portrain table and big phones
+    */
+body{
+background-color: antiquewhite;
+}
+
+div::after{
+    content: 'Portrait table big phones';
+}
+}
+
+@media (min-width:768px){
+    /*
+    tablet
+    */
+    body{
+        background-color: blue;
+    }
+    div::after{
+        content: 'Tablets';
+    }
+}
+div{
+    text-align: center;
+    font-size: x-large
+}
